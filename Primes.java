@@ -5,7 +5,8 @@ public class Primes
     public static void main(String[] args)
     {
         System.out.println("Hello World!");
-        System.out.println(isPrime(7));
+        System.out.println("Is 7 prime? : " + isPrime(7));
+        System.out.println("Is 4 prime? : " + isPrime(4));
         System.out.println(makePrimes());
     }
     public static boolean isPrime(int n)
